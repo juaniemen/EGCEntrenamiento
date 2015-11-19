@@ -1,0 +1,26 @@
+From d3b287b9b47eebe547ccc2480055dd61a7998814 Mon Sep 17 00:00:00 2001
+From: Your Name <juaniemen@hotmail.com>
+Date: Thu, 19 Nov 2015 12:12:48 +0100
+Subject: [PATCH] Commit corrigiendo el perimetro
+
+El perimetro pasa a ser 6*x tal como marca el ejercicio3
+---
+ pentagono.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pentagono.py b/pentagono.py
+index fe376ed..3fab3fa 100644
+--- a/pentagono.py
++++ b/pentagono.py
+@@ -4,7 +4,7 @@ class pentagono:
+ 		self.lado = lado
+ 
+         def perimetro(self):
+-   	        return 5 + self.lado
++   	        return 6 * self.lado
+ 
+ 	def area(self):
+ 		return 0
+-- 
+1.9.1
+
